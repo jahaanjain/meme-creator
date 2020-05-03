@@ -6,6 +6,7 @@ Example meme:
 ![Meme](/memes/my_meme.jpeg)
 
 Example code and usage:
+**You must put impact.fnt AND impact.png into the same directory**
 ```javascript
 var memeCreator = require('meme-creator');
 
