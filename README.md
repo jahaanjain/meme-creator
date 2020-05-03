@@ -6,9 +6,11 @@ Example meme:
 ![Meme](/memes/my_meme.jpeg)
 
 Example code and usage:
+**This module depends on the "jimp" NPM module**
 
 ```javascript
 var memeCreator = require('meme-creator');
+// var Jimp = require('jimp');
 
 let options = {
     imageURL: 'https://puu.sh/FFRao/b67dde72b7.jpg', // URL to image
