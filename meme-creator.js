@@ -5,7 +5,6 @@ module.exports = function (options, callback) {
         let url = options.imageURL;
         let directory = 'directory' in options ? options.directory : './';
         let fileName = 'fileName' in options ? options.fileName : 'random';
-        let fontDirectory = 'fontDirectory' in options ? options.fontDirectory : './impact.fnt';
 
         Jimp.read(url, (err, image) => {
             if (err) return callback({
@@ -25,7 +24,7 @@ module.exports = function (options, callback) {
             const TOP_POS = 5;
             const BOTTOM_POS = image.bitmap.height - 45;
 
-            Jimp.loadFont(fontDirectory).then(
+            Jimp.loadFont('./impact.fnt').then(
                 (font) => {
                     image.print(
                         font,
