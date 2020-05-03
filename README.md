@@ -7,7 +7,7 @@ Example meme:
 
 Example code and usage:
 ```javascript
-var memeGen = require('meme-generator');
+var memeCreator = require('meme-creator');
 
 let options = {
     imageURL: 'https://puu.sh/FFRao/b67dde72b7.jpg', // URL to image
@@ -18,7 +18,7 @@ let options = {
     fontDirectory: './impact.fnt' // the location of impact.fnt (impact.png should be in the same place)
 }
 
-memeGen(options, function(res, error) {
+memeCreator(options, function(res, error) {
     if(error) throw new Error(error)
     console.log('You can view your meme by going to ' + res.fileName);
 });
