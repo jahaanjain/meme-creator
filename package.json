@@ -1,0 +1,28 @@
+{
+    "name": "meme-generator",
+    "version": "1.0",
+    "description": "Generate memes from images",
+    "main": "meme-generator.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jahaanjain/meme-generator.git"
+    },
+    "keywords": [
+      "meme",
+      "maker",
+      "creator",
+      "generator"
+    ],
+    "author": "Jahaan Jain",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jahaanjain/meme-generator/issues"
+    },
+    "homepage": "https://github.com/jahaanjain/meme-generator#readme",
+    "dependencies": {
+      "jimp": "^0.10.0"
+    }
+  }
