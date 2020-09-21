@@ -17,7 +17,7 @@ let options = {
     topText: 'Daddy, what are clouds made of?', // top text of meme
     bottomText: 'Linux servers, mostly', // bottom text of meme
     directory: './memes/', // where to save memes
-    fileName: 'me_meme', // change to 'random' for a random file name
+    fileName: 'my_meme', // change to 'random' for a random file name
 }
 
 memeCreator(options, function(res, error) {
