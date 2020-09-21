@@ -1,4 +1,5 @@
 var Jimp = require('jimp');
+var path = require("path");
 
 module.exports = function (options, callback) {
     try {
@@ -24,7 +25,7 @@ module.exports = function (options, callback) {
             const TOP_POS = 5;
             const BOTTOM_POS = image.bitmap.height - 45;
 
-            Jimp.loadFont('./impact.fnt').then(
+            Jimp.loadFont(path.join(__dirname, '/impact.fnt')).then(
                 (font) => {
                     image.print(
                         font,
