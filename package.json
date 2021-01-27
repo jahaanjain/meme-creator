@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jahaanjain/meme-creator/issues"
   },
+  "peerDependencies": {
+    "jimp": "^2.0.0",
+  },
   "homepage": "https://github.com/jahaanjain/meme-creator#readme"
 }
